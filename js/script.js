@@ -8,6 +8,6 @@ document.getElementById("logo").setAttribute("src", "https://www.youtube.com/img
 document.querySelector("h1").classList.remove("titulo-feo");
 
 //4- Chequear si el link a youtube posee o no el atributo href
-
-
+const link = document.getElementById("link_youtube").hasAttribute("href");
+console.log(link);
 //5- Obtener el href del link a wikipedia y mostrarlo por consola

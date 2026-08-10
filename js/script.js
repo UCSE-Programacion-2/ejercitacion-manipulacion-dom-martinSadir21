@@ -11,3 +11,5 @@ document.querySelector("h1").classList.remove("titulo-feo");
 const link = document.getElementById("link_youtube").hasAttribute("href");
 console.log(link);
 //5- Obtener el href del link a wikipedia y mostrarlo por consola
+const link_wikipedia = document.getElementById("link_wikipedia").getAttribute("href");
+console.log(link_wikipedia);
